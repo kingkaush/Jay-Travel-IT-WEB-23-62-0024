@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jay Tours</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <style>
+      .topbar {
+        padding: 0px;
+      }
+
+      .topbar-container {
+        padding-left: 50px;
+      }
+
+      .navbar {
+        padding: 0px;
+      }
+
+      .navbar-brand {
+        color: tomato;
+        font-size: xx-large;
+        font-weight: 600;
+        padding: 0px;
+      }
+
+      .navbar-brand:hover {
+        color: tomato;
+      }
+
+      .nav-link {
+        color: white;
+        margin: 0px 10px;
+      }
+
+      .nav-link:hover {
+        color: tomato;
+      }
+
+      .text-primary {
+        color: tomato !important;
+      }
+
+      .lead-text {
+        width: 60%;
+        margin: 0px auto;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .card {
+        border: 0px;
+      }
+
+      .details-section {
+        background-color: #022332;
+        display: flex;
+        justify-content: center;
+      }
+
+      .details-row {
+        width: 80%;
+      }
+
+      .details-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #022332;
+        margin: 30px 0px;
+      }
+
+      .details-card-title {
+        color: tomato;
+        font-size: xx-large;
+        margin: 10px;
+      }
+
+      .travelers-card {
+        border: solid;
+        border-width: 1px;
+        border-radius: 0px;
+        border-color: gray;
+        border-bottom-width: 5px;
+        border-bottom-color: #7b9fd4;
+      }
+
+      .travelers-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .travelers-card-title {
+        color: #7b9fd4;
+        font-size: x-large;
+        font-weight: 600;
+      }
+
+      .contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .d-flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .bottom-bar {
+        background-color: #032630;
+        padding: 30px 30px 30px 60px;
+      }
+
+      .footer-icons {
+        color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid topbar">
+      <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+        <div class="container-fluid topbar-container">
+          <a class="navbar-brand" href="#">JAY TOURS</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./Index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./About.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Services.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Testimonials.html">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contacts.html">CONTACTS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <header class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-md-12 p-0">
+          <img src="Images/main.jpg" class="d-block w-100" alt="Maldives" />
+        </div>
+      </div>
+    </header>
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 text-center w-100 text-primary">
+          <h2>TOP DESTINATIONS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card-title text-center mb-2">
+            <h5 class="card-title">SRI LANKA</h5>
+          </div>
+          <img
+            src="Images/Top Destinations/Sri Lanka.jpg"
+            class="img-fluid h-100"
+            alt="..."
+          />
+        </div>
+
+        <div class="col">
+          <div class="card-title text-center mb-2">
+            <h5 class="card-title">ROME</h5>
+          </div>
+          <img
+            src="Images/Top Destinations/Rome.jpg"
+            class="img-fluid h-100"
+            alt="..."
+          />
+        </div>
+
+        <div class="col">
+          <div class="card-title text-center mb-2">
+            <h5 class="card-title">MALDIVES</h5>
+          </div>
+          <img
+            src="Images/Top Destinations/Maldives.jpg"
+            class="img-fluid h-100"
+            alt="..."
+          />
+        </div>
+
+        <div class="col">
+          <div class="card-title text-center mb-2">
+            <h5 class="card-title">SWITZERLAND</h5>
+          </div>
+          <img
+            src="Images/Top Destinations/Switzerland.jpg"
+            class="img-fluid h-100"
+            alt="..."
+          />
+        </div>
+
+        <div class="col">
+          <div class="card-title text-center mb-2">
+            <h5 class="card-title">THAILAND</h5>
+          </div>
+          <img
+            src="Images/Top Destinations/Thailand.jpg"
+            class="img-fluid h-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row pt-5">
+        <div class="col-lg-3 text-center w-100 text-primary">
+          <h2>OUR TEAM LEADS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <p class="lead-text">
+          Teamwork is the ability to work together towards a common vision. The
+          ability to direct individual accomplishments towards the organisation
+          objectives. It is the fuel that allows common people to attain unommon
+          results.
+        </p>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-4 mt-2">
+          <div class="card px-3">
+            <img
+              src="Images/Team Leaders/Hugo Silva.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Hugo Silva</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-2">
+          <div class="card px-3">
+            <img
+              src="Images/Team Leaders/Imanoli Arias.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Imanoli Arias</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-2">
+          <div class="card px-3">
+            <img
+              src="Images/Team Leaders/Javier Bardem.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Javier Bardem</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid details-section mt-5">
+      <div class="row details-row">
+        <div class="col-md-3">
+          <div class="card details-card">
+            <div class="card-body">
+              <h5 class="card-title text-center details-card-title">250k +</h5>
+              <span class="text-center">HAPPY CLIENTS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card details-card">
+            <div class="card-body">
+              <h5 class="card-title text-center details-card-title">800</h5>
+              <span class="text-center">WEEKLY RESERVATIONS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card details-card">
+            <div class="card-body">
+              <h5 class="card-title text-center details-card-title">150</h5>
+              <span class="text-center">TRAVEL PARTNERS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card details-card">
+            <div class="card-body">
+              <h5 class="card-title text-center details-card-title">15</h5>
+              <span class="text-center">BRANCHES</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 text-center w-100 text-primary">
+          <h2>OVERHEAD FROM TRAVELERS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mt-2">
+          <div class="card travelers-card">
+            <div class="card-body text-center travelers-body">
+              <div class="travelers-card-title">Breakfast</div>
+              <span style="color: gray; margin-bottom: 10px">in Greece</span>
+              <span
+                >"We booked Hotel Eucalyptus though Jay after reading a handful
+                of reviews, and it was easily the best dicision we made"</span
+              >
+              <span style="color: gray; margin-top: 10px"
+                >- Julice from Canada</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-2">
+          <div class="card travelers-card">
+            <div class="card-body text-center travelers-body">
+              <div class="travelers-card-title">Holiday Inn Resort Batam</div>
+              <span style="color: gray; margin-bottom: 10px">in Indonesia</span>
+              <span
+                >"Thanks Jay for letting me changes room without charge and
+                rebate the difference. Nice staffs Agoda and holiday Inn!"</span
+              >
+              <span style="color: gray; margin-top: 10px"
+                >- Julice from Canada</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-2">
+          <div class="card travelers-card">
+            <div class="card-body text-center travelers-body">
+              <div class="travelers-card-title">Hotel Granvia Kyoto</div>
+              <span style="color: gray; margin-bottom: 10px">in Japan</span>
+              <span
+                >"Our family was travelling via bullet train between cities in
+                the Japan with our luggage - the location for the hotel made
+                that"</span
+              >
+              <span style="color: gray; margin-top: 10px"
+                >- Julice from Canada</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 text-center w-100 text-primary">
+          <h2>CONTACT US</h2>
+        </div>
+      </div>
+      <div class="row contact-form mt-4">
+        <div class="col-lg-6 col-md-12">
+          <form id="contactForm">
+            <div class="row">
+              <div class="form-group col-md-6 mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  placeholder="First name"
+                />
+              </div>
+              <div class="form-group col-md-6 mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder="Last name"
+                />
+              </div>
+            </div>
+            <div class="form-group mb-4">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="phoneNumber"
+                placeholder="Phone number"
+              />
+            </div>
+            <div class="form-check d-flex-center flex-column">
+              <div>
+                <input
+                  type="checkbox"
+                  class="form-check-input mb-4"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Subscribe to our news letter</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <div class="d-flex-center"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bottom-bar">
+      <div class="row">
+        <div class="col">
+          <div class="card-title">
+            <h5 class="card-title text-light mb-3">SRI LANKA</h5>
+          </div>
+          <div class="card-body text-light d-flex flex-column">
+            <span>Help center</span>
+            <span>FAQs</span>
+            <span>Terms of use</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-title">
+            <h5 class="card-title text-light mb-3">ABOUT US</h5>
+          </div>
+          <div class="card-body text-light d-flex flex-column">
+            <span>Blog</span>
+            <span>Careers</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-title">
+            <h5 class="card-title text-light mb-3">DESTINATIONS</h5>
+          </div>
+          <div class="card-body text-light d-flex flex-column">
+            <span>Countries</span>
+            <span>Cities</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-title">
+            <h5 class="card-title text-light mb-3">PARTNER WITH US</h5>
+          </div>
+          <div class="card-body text-light d-flex flex-column">
+            <span>Properties</span>
+            <span>Affiliates</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-body text-light d-flex flex-column">
+            <div class="d-flex">
+              <div class="p-2">
+                <i class="bi bi-telephone-fill footer-icons"></i>
+              </div>
+              <div>
+                <div>+94 112 875 965</div>
+                <div>+94 115 879 568</div>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <div class="p-2">
+                <i class="bi bi-geo-alt-fill footer-icons"></i>
+              </div>
+              <div>
+                <div>No. 56</div>
+                <div>Havlock Town</div>
+                <div>Colombo 05</div>
+                <div>Sri Lanka</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid bg-dark d-flex-center text-light py-2">
+      <span>Copyright</span> <i class="bi bi-c-circle mx-1"></i
+      ><span>2020 - SLIIT Web Development - All rights received</span>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const contactForm = document.getElementById("contactForm");
+      const firstNameInput = document.getElementById("firstName");
+      const lastNameInput = document.getElementById("lastName");
+      const emailInput = document.getElementById("email");
+      const phoneNumberInput = document.getElementById("phoneNumber");
+
+      contactForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+        if (validateForm()) {
+          alert("Form submitted successfully.");
+        }
+      });
+
+      function validateForm() {
+        let valid = true;
+
+        if (firstNameInput.value.trim() === "") {
+          valid = false;
+          alert("Please enter your first name.");
+        }
+
+        if (lastNameInput.value.trim() === "") {
+          valid = false;
+          alert("Please enter your last name.");
+        }
+
+        if (emailInput.value.trim() === "") {
+          valid = false;
+          alert("Please enter your email.");
+        } else if (!isValidEmail(emailInput.value)) {
+          valid = false;
+          alert("Please enter a valid email address.");
+        }
+
+        if (phoneNumberInput.value.trim() === "") {
+          valid = false;
+          alert("Please enter your phone number.");
+        }
+
+        return valid;
+      }
+
+      function isValidEmail(email) {
+        const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        return emailPattern.test(email);
+      }
+    </script>
+  </body>
+</html>
